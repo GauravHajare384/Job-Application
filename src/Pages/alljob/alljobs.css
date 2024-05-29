@@ -1,0 +1,48 @@
+.joblist {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.bgjobsearch {
+  background-color: rgba(56, 56, 56, 0.566);
+  width: 80%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.rating {
+  color: gold;
+  display: inline;
+}
+.rname {
+  display: inline;
+}
+.outerdetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+.jobderailline {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.jobderailline p {
+  margin-right: 8px;
+}
+.linkhr{
+    margin-top: -10px;
+    border: 2px solid;
+}
+@media((min-width:300px) and (max-width:500px)){
+  .bgjobsearch{
+    width: 98%;
+    margin-left: -15px;
+    margin-right: 0px ;
+  }
+  .joblist{
+    margin: 0px;
+  }
+}

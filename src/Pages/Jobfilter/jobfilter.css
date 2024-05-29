@@ -1,0 +1,41 @@
+
+.profilesection{
+
+    height: 180px;
+    border-radius: 40px 40px 20px 20px;
+    width: 100%;
+    background-image: url(https://assets.ccbp.in/frontend/react-js/profile-bg.png);
+    background-size: cover;
+}
+.Profilelogo{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 50px;
+}
+.profilename{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: rgba(0, 0, 255, 0.655);
+}
+.prodesc{
+    margin: 10px 10px 15px 20px;
+    font-size: 14px;
+}
+.emolist h3{
+    color: white;
+    font-size: 20px;
+}
+.emplist{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 15px;
+}
+.empinput{
+    margin: 10px;
+}
+.emplabel{
+    margin: 8px;
+    color: white;
+}

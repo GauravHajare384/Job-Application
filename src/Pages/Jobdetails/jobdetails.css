@@ -1,0 +1,97 @@
+.jdbg {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(12, 2, 2);
+  /* he ight: 200vh; */
+}
+.jdmain {
+  width: 67%;
+  margin: auto;
+  color: white;
+}
+.mainjob {
+  background-color: rgba(56, 56, 56, 0.566);
+  position: relative;
+  top: 50px;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 70px;
+}
+.jdskill {
+  margin-left: 0;
+  margin-top: 20px;
+  /* border: 2px solid white; */
+}
+.skilllist {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 30px 0 0;
+  font-size: 15px;
+}
+.skillul {
+  display: flex;
+  margin-left: -35px;
+}
+.lifeblock {
+  display: flex;
+  margin: 0 5px 0 0;
+  justify-content: space-between;
+}
+.lifeblock p {
+  width: 55%;
+}
+.lifeblock img {
+  width: 40%;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.similarjobsbox {
+  width: 40%;
+  background-color: rgba(56, 56, 56, 0.566);
+  border-radius: 20px;
+  padding: 15px;
+
+  margin: 0 30px 30px 0;
+}
+
+.similarjobsmain {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lastdiv p {
+  margin: 0px 10px 0px 0px;
+}
+@media ((min-width: 300px) and (max-width:500px)) {
+  .jdmain {
+    width: 90%;
+  }
+  .jdskill {
+    height: 200px;
+  }
+  .skillul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.skilllist{
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .lifeblock{
+    flex-direction: column;
+    padding: 2px;
+  }
+  .lifeblock p {
+    width: 100%;
+  }
+  .lifeblock img{
+    width: 100%;
+    margin-top: 5px;
+  }
+.similarjobsmain {
+    flex-direction: column;
+}
+.similarjobsbox{
+    width: 97%;
+}
+}
